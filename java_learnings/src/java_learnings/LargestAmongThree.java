@@ -10,7 +10,7 @@ public static void main( String[]args) {
 	int b = sc.nextInt();
 	System.out.print("enter num3");
 	int c = sc.nextInt();
-	int d = (a>b) ? ((a>c) ? a:c) : ((b>c)?b:c);
-	System.out.println(d+"is largest");
+	int largest = (a>b) ? ((a>c) ? a:c) : ((b>c)?b:c);
+	System.out.println(largest+"is largest");
 }
 }

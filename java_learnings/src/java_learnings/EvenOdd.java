@@ -10,6 +10,6 @@ public static void main(String[] args) {
 		System.out.print("even");
 	}else {
 	System.out.print("odd");
-}
+	}
 }
 }
